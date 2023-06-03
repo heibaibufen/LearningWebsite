@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7051d877-3a90-4265-ad4a-eda78be7e17d" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
+
+
+      <change afterPath="$PROJECT_DIR$/front/build/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -38,12 +45,14 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.16.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.16.0&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Users/kun/Desktop/pr1/LearningWebsite/project&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -54,6 +63,7 @@
   }
 }</component>
   <component name="RunManager" selected="Django 服务器.project">
+  <component name="RunManager" selected="JavaScript 调试.register.html">
     <configuration name="Test: vue-project" type="DjangoTestsConfigurationType" temporary="true">
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,6 +85,12 @@
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/project/vue-project/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/manage.py/project/front/build/login.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="register.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/manage.py/project/front/build/register.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/vue-project/src/main.js" working-dir="$PROJECT_DIR$/vue-project/src">
@@ -108,11 +124,15 @@
     <list>
       <item itemvalue="Django 服务器.project" />
       <item itemvalue="Django 测试.Test: vue-project" />
+      <item itemvalue="JavaScript 调试.register.html" />
+      <item itemvalue="JavaScript 调试.login.html" />
       <item itemvalue="JavaScript 调试.index.html" />
       <item itemvalue="Node.js.main.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript 调试.register.html" />
+        <item itemvalue="JavaScript 调试.login.html" />
         <item itemvalue="Django 测试.Test: vue-project" />
         <item itemvalue="JavaScript 调试.index.html" />
         <item itemvalue="Node.js.main.js" />
@@ -139,13 +159,15 @@
       <workItem from="1685170848963" duration="1872000" />
       <workItem from="1685172749436" duration="24000" />
       <workItem from="1685176319348" duration="615000" />
-      <workItem from="1685177553680" duration="1821000" />
-      <workItem from="1685426423695" duration="390000" />
-      <workItem from="1685426942494" duration="236000" />
-      <workItem from="1685429235431" duration="14000" />
-      <workItem from="1685520973549" duration="9000" />
-      <workItem from="1685625351425" duration="1112000" />
-      <workItem from="1685756490570" duration="1294000" />
+
+
+      <workItem from="1685757248373" duration="211000" />
+      <workItem from="1685757478437" duration="190000" />
+
+
+
+
+
     </task>
     <servers />
   </component>
