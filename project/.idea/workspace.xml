@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7051d877-3a90-4265-ad4a-eda78be7e17d" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +139,13 @@
       <workItem from="1685170848963" duration="1872000" />
       <workItem from="1685172749436" duration="24000" />
       <workItem from="1685176319348" duration="615000" />
+      <workItem from="1685177553680" duration="1821000" />
+      <workItem from="1685426423695" duration="390000" />
+      <workItem from="1685426942494" duration="236000" />
+      <workItem from="1685429235431" duration="14000" />
+      <workItem from="1685520973549" duration="9000" />
+      <workItem from="1685625351425" duration="1112000" />
+      <workItem from="1685756490570" duration="1294000" />
     </task>
     <servers />
   </component>
