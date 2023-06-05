@@ -1,6 +1,6 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from app01.views import UserInfoViewSet
+from views import UserInfoViewSet
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 

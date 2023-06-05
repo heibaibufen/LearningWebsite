@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from rest_framework.viewsets import ModelViewSet
-from app01.models import UserInfo
-from app01.serializer import UserInfoSerializer
-from app01.filter import UserInfoFilter
+from models import UserInfo
+from serializer import UserInfoSerializer
+from filter import UserInfoFilter
 from django_filters.rest_framework import DjangoFilterBackend
 
 
