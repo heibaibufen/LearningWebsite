@@ -117,6 +117,19 @@ a {
           密码：<input type="text" placeholder="user password" v-model="inputUser.password"><br>
           <button type="submit" @click="userSubmit()">提交</button>
       </form>
+      <template>
+  <div>
+    <div class="footer_wrap">
+      <router-link to="/find">发现音乐</router-link>
+      <router-link to="/my">我的音乐</router-link>
+      <router-link to="/part">朋友</router-link>
+    </div>
+    <div class="top">
+      <router-view></router-view>
+    </div>
+  </div>
+</template>
+
   </div>
 </template>
 
