@@ -1,8 +1,8 @@
 from django.shortcuts import render, redirect
 from rest_framework.viewsets import ModelViewSet
-from app01.models import UserInfo
-from app01.serializer import UserInfoSerializer
-from app01.filter import UserInfoFilter
+from models import UserInfo
+from serializer import UserInfoSerializer
+from filter import UserInfoFilter
 from django_filters.rest_framework import DjangoFilterBackend
 from django.shortcuts import render, get_object_or_404, redirect
 

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="/static/css/login.css"/>
+</head>
+<body>
+<form method="post" action="/polls/login/">
+    {% csrf_token %}
+    <div class="box">
+        <h2>Login</h2>
+
+        <div class="input-box">
+            <label>账号</label>
+            <input type="text" name="user">
+        </div>
+        <div class="input-box">
+            <label>密码</label>
+            <input type="text" name="pwd">
+        </div>
+
+        <div class="btn-box">
+            <a href="#">忘记密码?</a>
+            <div>
+                <button>登录</button> <span style="color: red">{{ n }}</span>
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>

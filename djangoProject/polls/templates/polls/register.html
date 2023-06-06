@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/static/css/register.css">
+</head>
+<body>
+    <div class="box">
+        <h2>Register</h2>
+        <form method="post" action="/polls/register/">
+            {% csrf_token %}
+        <div class="input-box">
+            <label>账号</label>
+            <input type="text" name="user">
+        </div>
+        <div class="input-box">
+            <label>密码</label>
+            <input type="password" name="pwd">
+        </div>
+        <div class="btn-box">
+            <div>
+                <button>注册</button>
+            </div>
+        </div>
+        </form>
+    </div>
+
+<script type="text/javascript">
+</script>
+</body>
+</html>
